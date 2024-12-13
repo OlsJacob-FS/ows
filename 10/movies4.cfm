@@ -1,6 +1,6 @@
 <!--- Get Movies list from database --->
 <cfquery name = "movies" datasource = "ows">
-    SELECT MovieTitle 
+    SELECT MovieTitle, PitchText 
     FROM Films 
     ORDER BY MovieTitle
 </cfquery>
@@ -16,10 +16,13 @@
     <h1>Movie List</h1>
 
     <!--- Display movie list from database --->
-    <cfoutput query="movies">
-    <ul>
-        <li><strong>#MovieTitle#</strong></li>
-    </ul>
-    </cfoutput>
+    <table border="1">
+        <cfoutput query="movies">
+            <tr>
+                <td>#MovieTitle#</td>
+                <td>#PitchText#</td>
+            </tr>
+        </cfoutput>
+    </table>
 </body>
 </html>
