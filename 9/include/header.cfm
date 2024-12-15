@@ -7,7 +7,7 @@
 </head>
 <body>
 <!--- Header --->
-    <table width="100%>
+    <table width="100%">
     <tr>
         <td>
             <h1>Header</h1>
