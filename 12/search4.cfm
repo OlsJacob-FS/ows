@@ -14,7 +14,7 @@
 </head>
 <body>
         <!--- MovieTitle search --->
-        <cfinclude template = "./include/header.cfm">
+        <cfinclude template = "../include/header.cfm">
 
     <form action="results3.cfm" method="post">
         <table align="center" border="1">
