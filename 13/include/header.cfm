@@ -17,7 +17,7 @@
                  border="0">
         </td>
         <td>
-            <font face="Comic Sans MS" size="5" color="#ff8000">Welcome to the header</font>
+            <font face="Comic Sans MS" size="5" color="#ff8000">Orange Whip Studio</font>
         </td>
     </tr>
     </table>
